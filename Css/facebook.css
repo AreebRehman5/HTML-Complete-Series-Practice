@@ -161,3 +161,50 @@ hr {
     padding: 15px;
   }
 }
+body{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.left{
+  flex: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.main{
+  width: 450px;
+  height: 250px;
+}
+.main h1{
+  font-size: 70px;
+  color: #0d1be2;
+  margin-left: 80px;
+  font-weight: 900px;
+  margin-bottom: 15px;
+
+}
+.main p{
+  font-size: 20px;
+  color: hsl(240, 8%, 5%);
+  margin-left: 80px;
+  font-weight: 900px;
+  font-weight: bolder;
+}
+
+.right{
+  flex: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main2{
+  width: 450px;
+  height: 350px;
+}
